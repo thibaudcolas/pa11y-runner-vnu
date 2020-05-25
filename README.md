@@ -1,4 +1,4 @@
-# pa11y-runner-vnu [![Build Status](https://travis-ci.com/thibaudcolas/pa11y-runner-vnu.svg?branch=master)](https://travis-ci.com/thibaudcolas/pa11y-runner-vnu)
+# pa11y-runner-vnu [![Build Status](https://travis-ci.com/thibaudcolas/pa11y-runner-vnu.svg?branch=master)](https://travis-ci.com/thibaudcolas/pa11y-runner-vnu) [![Total alerts](https://img.shields.io/lgtm/alerts/g/thibaudcolas/pa11y-runner-vnu.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/thibaudcolas/pa11y-runner-vnu/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/thibaudcolas/pa11y-runner-vnu.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/thibaudcolas/pa11y-runner-vnu/context:javascript)
 
 > Pa11y runner for HTML validation with the [Nu Html Checker (v.Nu)](https://validator.github.io/validator/).
 
