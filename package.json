@@ -27,12 +27,14 @@
     "@commitlint/travis-cli": "8.3.5",
     "@thibaudcolas/eslint-plugin-cookbook": "^5.0.1",
     "eslint": "^7.1.0",
+    "pa11y": "git+https://github.com/thibaudcolas/pa11y.git#feature/node-runners",
     "prettier": "2.0.5"
   },
   "scripts": {
     "prepare": "./.githooks/deploy.sh",
     "lint": "eslint . && prettier --check '**/?(.)*.{md,css,scss,js,json,json5,yaml,yml,html}'",
     "format": "prettier --write '**/?(.)*.{md,css,scss,js,json,json5,yaml,yml,html}'",
-    "test:ci": "npm run lint -s"
+    "test:ci": "npm run lint -s",
+    "test": "pa11y --runner \"$(pwd)/src/runner.js\" https://www.example.com/"
   }
 }
