@@ -6,7 +6,7 @@
 
 **To use the runner, first install [`vnu`](https://validator.github.io/validator/).**
 
-> 🚧 Currently the Runner is only compatible with https://github.com/thibaudcolas/pa11y.
+> 🚧 Currently the Runner is only compatible with https://github.com/thibaudcolas/pa11y#feature/node-runners.
 
 ```sh
 # On macOS,
@@ -24,7 +24,19 @@ With `vnu`, Pa11y, and the runner installed,
 pa11y --runner vnu https://www.example.com/
 ```
 
-## What is this
+## Why
+
+When it comes to finding accessibility issues, HTML validation ranks [poorly](https://alphagov.github.io/accessibility-tool-audit/) compared to dedicated tools. Nonetheless, I find it valuable for a few reasons:
+
+- Developers understand it well. Accessibility guidelines can be hard to grasp for newcomers, while “valid HTML” is a well understood concept.
+- It’s ubiquitous. There are well established tools for HTML validation, they’ve been there forever. A lot of web developers have already used them.
+- It finds issues much closer to the code than other methods. If the HTML is malformed, a validator picks this up right away, in very clear terms.
+
+---
+
+Here are examples of issues I wouldn’t have found if it wasn’t for HTML validation:
+
+- [Forcing `row="table"` on all tables](https://github.com/wagtail/wagtail/pull/5977)
 
 ## Contributing
 
