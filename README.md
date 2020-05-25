@@ -14,7 +14,7 @@ brew install vnu
 # Elsewhere, grab the latest release from
 # https://github.com/validator/validator/releases/latest.
 # Then,
-npm install -g pa11y pa11y-runner-vnu
+npm install -g https://github.com/thibaudcolas/pa11y#feature/node-runners pa11y-runner-vnu
 ```
 
 With `vnu`, Pa11y, and the runner installed,
