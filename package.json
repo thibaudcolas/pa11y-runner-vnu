@@ -1,0 +1,38 @@
+{
+  "name": "pa11y-runner-vnu",
+  "version": "0.1.0",
+  "description": "Pa11y runner for HTML validation with the Nu Html Checker (v.Nu)",
+  "author": "Thibaud Colas",
+  "license": "MIT",
+  "main": "./src/runner.js",
+  "homepage": "https://github.com/thibaudcolas/pa11y-runner-vnu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thibaudcolas/pa11y-runner-vnu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thibaudcolas/pa11y-runner-vnu/issues"
+  },
+  "keywords": [
+    "pa11y",
+    "pa11y-runner",
+    "accessibility",
+    "html validation",
+    "vnu",
+    "validator"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@commitlint/travis-cli": "8.3.5",
+    "@thibaudcolas/eslint-plugin-cookbook": "^5.0.1",
+    "eslint": "^7.1.0",
+    "prettier": "2.0.5"
+  },
+  "scripts": {
+    "prepare": "./.githooks/deploy.sh",
+    "lint": "eslint . && prettier --check '**/?(.)*.{md,css,scss,js,json,json5,yaml,yml,html}'",
+    "format": "prettier --write '**/?(.)*.{md,css,scss,js,json,json5,yaml,yml,html}'",
+    "test:ci": "npm run lint -s"
+  }
+}
