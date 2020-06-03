@@ -6,7 +6,7 @@
 
 > 🚧 Currently the runner is only compatible with PR [#524 – Add lower-level runner API to support non-browser runners](https://github.com/pa11y/pa11y/pull/524), and on my fork [thibaudcolas/pa11y#feature/node-runners](https://github.com/thibaudcolas/pa11y#feature/node-runners).
 
-**V.Nu furst needs to be installed separately, with a standalone [`vnu` binary](https://validator.github.io/validator/).**
+**V.Nu first needs to be installed separately, with a standalone [`vnu` binary](https://validator.github.io/validator/).**
 
 ```sh
 # On macOS,
