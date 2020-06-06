@@ -25,8 +25,8 @@
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
     "@commitlint/travis-cli": "8.3.5",
-    "@thibaudcolas/eslint-plugin-cookbook": "^5.0.1",
-    "eslint": "^7.1.0",
+    "@thibaudcolas/eslint-plugin-cookbook": "5.0.1",
+    "eslint": "7.1.0",
     "pa11y": "git+https://github.com/thibaudcolas/pa11y.git#feature/node-runners",
     "prettier": "2.0.5"
   },
