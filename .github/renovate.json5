@@ -33,6 +33,11 @@
       automerge: true,
     },
     {
+      packageNames: ["eslint"],
+      groupName: "eslint",
+      automerge: true,
+    },
+    {
       packagePatterns: ["^@commitlint"],
       groupName: "commitlint",
       automerge: true,
