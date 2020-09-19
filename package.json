@@ -28,7 +28,7 @@
     "@thibaudcolas/eslint-plugin-cookbook": "6.0.0",
     "eslint": "7.9.0",
     "pa11y": "git+https://github.com/thibaudcolas/pa11y.git#feature/node-runners",
-    "prettier": "2.1.1"
+    "prettier": "2.1.2"
   },
   "scripts": {
     "prepare": "./.githooks/deploy.sh",
