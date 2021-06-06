@@ -22,9 +22,9 @@
     "validator"
   ],
   "devDependencies": {
-    "@commitlint/cli": "11.0.0",
-    "@commitlint/config-conventional": "11.0.0",
-    "@commitlint/travis-cli": "11.0.0",
+    "@commitlint/cli": "12.1.4",
+    "@commitlint/config-conventional": "12.1.4",
+    "@commitlint/travis-cli": "12.1.4",
     "@thibaudcolas/eslint-plugin-cookbook": "6.0.0",
     "eslint": "7.13.0",
     "pa11y": "git+https://github.com/thibaudcolas/pa11y.git#feature/node-runners",
