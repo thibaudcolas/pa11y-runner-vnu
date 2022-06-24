@@ -1,0 +1,21 @@
+{
+  "name": "potato",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "pa11y-ci": "3.0.1",
+    "pa11y-runner-vnu": "^0.1.0"
+  },
+  "overrides": {
+    "pa11y-ci": {
+      "pa11y": "https://github.com/thibaudcolas/pa11y#feature/node-runners"
+    }
+  },
+  "license": "ISC"
+}
